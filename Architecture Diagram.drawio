@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T02:30:44.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="I6P0Wz2TEr-G1987YDiB" version="23.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T02:34:21.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="CtOLrbOJXAYQ-_LmmQTW" version="23.1.4" type="github">
   <diagram name="Page-1" id="MsAcD9wUIuVss249Any_">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PWgpVzjd51y_IINd4fkb-41" value="" style="rounded=0;whiteSpace=wrap;html=1;textOpacity=10;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=0;strokeWidth=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="857" y="148" width="323" height="340" as="geometry" />
+          <mxGeometry x="832" y="148" width="258" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="PWgpVzjd51y_IINd4fkb-13" value="Architecture" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="PWgpVzjd51y_IINd4fkb-13" value="AutoScheduler Architecture" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="90" y="21" width="580" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="PWgpVzjd51y_IINd4fkb-14" value="Client" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="PWgpVzjd51y_IINd4fkb-13">
@@ -116,28 +116,28 @@
           <mxGeometry x="864" y="148" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PWgpVzjd51y_IINd4fkb-43" value="3rd Party NLP Processing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="884" y="260" width="166" height="40" as="geometry" />
+          <mxGeometry x="869" y="260" width="166" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PWgpVzjd51y_IINd4fkb-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PWgpVzjd51y_IINd4fkb-90" target="PWgpVzjd51y_IINd4fkb-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PWgpVzjd51y_IINd4fkb-88" value="External vendor Calendar Integration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="906" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="865" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PWgpVzjd51y_IINd4fkb-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PWgpVzjd51y_IINd4fkb-90" target="PWgpVzjd51y_IINd4fkb-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PWgpVzjd51y_IINd4fkb-90" value="External Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="726" y="506" width="130" height="70" as="geometry" />
+          <mxGeometry x="701" y="506" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PWgpVzjd51y_IINd4fkb-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;endArrow=classic;" edge="1" parent="1" source="PWgpVzjd51y_IINd4fkb-38" target="PWgpVzjd51y_IINd4fkb-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PWgpVzjd51y_IINd4fkb-86" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/secure.svg;" vertex="1" parent="1">
-          <mxGeometry x="808" y="490" width="18.56" height="29" as="geometry" />
+          <mxGeometry x="710" y="488" width="18.56" height="29" as="geometry" />
         </mxCell>
         <mxCell id="PWgpVzjd51y_IINd4fkb-94" value="Speech Recognition Engine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="884" y="190" width="166" height="40" as="geometry" />
+          <mxGeometry x="872" y="190" width="166" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PWgpVzjd51y_IINd4fkb-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PWgpVzjd51y_IINd4fkb-90" target="PWgpVzjd51y_IINd4fkb-94">
           <mxGeometry relative="1" as="geometry">
